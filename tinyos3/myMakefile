@@ -1,0 +1,5 @@
+#!/bin/bash
+make clean
+touch .depend
+make
+./validate_api

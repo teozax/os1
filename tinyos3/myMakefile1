@@ -1,0 +1,7 @@
+#!/bin/bash
+make clean
+touch .depend
+make
+gnome-terminal -e "./terminal 0"
+gnome-terminal -e "./terminal 1"
+./tinyos_shell 1 2
